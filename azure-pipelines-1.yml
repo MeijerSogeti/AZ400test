@@ -13,6 +13,6 @@ steps:
 - task: MicrosoftSecurityDevOps@1
   inputs:
     Command: run
-    policy azuredevops
+    policy: azuredevops
     publish: true
 
